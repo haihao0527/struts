@@ -1,0 +1,9 @@
+<struts>
+    <!--   <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+      <constant name="struts.devMode" value="true" /> -->
+
+    <package name="default" namespace="/" extends="struts-default">
+        <action name="hellostruts2" class="com.demo.web.action.UserAction"  method="hello" >
+        </action>
+    </package>
+</struts>
